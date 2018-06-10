@@ -198,14 +198,67 @@ literal "false"
 .
  Their results outperform other invasive or non-invasive brain-machine-interface
 s in training time and calibration time.
+ 
 \end_layout
 
 \begin_layout Subsection
 Drawing robot
 \end_layout
 
+\begin_layout Standard
+Gazeau Jean-Pierre et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1"
+literal "false"
+
+\end_inset
+
+ installed their artist robot by combining a 6 DOF Kuka model(KR6), KRC2
+ controller and a KCP (Kuka Control Panel).
+ After taking the pictures from camera, they used Canny edge detection to
+ obtain a maximum of 1000 points for the image vectorisation.
+ The robot path and motion planning for drawing will be based on these vectors.
+ S.
+ Calinon et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-2"
+literal "false"
+
+\end_inset
+
+ used a Fujitsu humanoid robot HOAP2 with a 4-DOF right arm, 1 DOF right
+ hand and 2-DOF head.
+ They used an external Phillips webcam to track the head of the object at
+ a rate of 15Hz with a resolution of 640*480 pixels.
+ This robot model first take a snapshot of the user, start the potrait by
+ first drawing a rough contours and then adding details iteratively.
+ Their project involves image processing, speech recognition and simple
+ human robot interaction.
+ Shunsuke Kudoh et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-3"
+literal "false"
+
+\end_inset
+
+ used various feedback techniques to improve the performance of their multi-fing
+er robot model.
+ They proposed that robot painting action could be divided into 3 parts:
+ obtaining 3D model, composing a picture model, and painting, which is also
+ the whole procedure involved in human painting.
+ By using a stereo camera and creating a picture model by extracting features
+ of original objects, the robot could reproduce the outlines and some details
+ of the 3D objects.
+\end_layout
+
 \begin_layout Section
-Hardware/Robot platform
+Hardware/Robot platform 
 \end_layout
 
 \begin_layout Itemize
@@ -430,6 +483,76 @@ Gaze-based teleprosthetic enables intuitive continuous control of complex
  6th IEEE RAS/EMBS International Conference on Biomedical Robotics and Biomechat
 ronics (BioRob) June 26-29, 2016.
  UTown, Singapore 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+G.
+ Jean-Pierrem and Z.
+ Said, “The artist robot: a robot drawing like a human artist,” in Proc.
+ IEEE International Conference on Industrial Technology (ICIT’12), Athens,
+ Greek, Mar.
+ 2012, pp.
+ 486–491.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+
+\end_inset
+
+S.
+ Calinon, J.
+ Epiney, and A.
+ Billard, “A humanoid robot drawing human portraits,” in Proc.
+ IEEE International Conference on Humanoid Robots (Humanoids’05), Tsukuba,
+ Japan, Dec.
+ 2005, pp.
+ 161–166.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-3"
+
+\end_inset
+
+S.
+ Kudoh, K.
+ Ogawara, M.
+ Ruchanurucksc, and K.
+ Ikeuchi, “Painting robot with multi-fingered hands and stereo vision,”
+ Robotics and Autonomous Systems, vol.
+ 57, no.
+ 3, pp.
+ 279–288, 2009.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-4"
+
+\end_inset
+
+Ahmed El-Barkouky, Ali Mahmoud, James Graham and Aly Farag, 
+\begin_inset Quotes eld
+\end_inset
+
+AN INTERACTIVE EDUCATIONAL DRAWING SYSTEM USING A HUMANOID ROBOT AND LIGHT
+ POLARIZATION,
+\begin_inset Quotes erd
+\end_inset
+
+ Image Processing (ICIP), 2013 20th IEEE International Conference on
 \end_layout
 
 \end_body
